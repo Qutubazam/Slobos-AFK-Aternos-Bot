@@ -9,7 +9,7 @@
     "ip": "Senku1249.aternos.me",
     "port": 62548,
     "version": "",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -27,9 +27,9 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 120,
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 300,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
@@ -38,14 +38,14 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 1000,
+    "max-reconnect-delay": 5000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
+      "radius": 4,
       "speed": 3000
     },
     "look-around": {
@@ -61,11 +61,11 @@
     "avoidMobs": true,
     "combat": true,
     "beds": false,
-    "chat": false,
+    "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -78,7 +78,7 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
