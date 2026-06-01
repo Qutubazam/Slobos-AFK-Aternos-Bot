@@ -1,15 +1,15 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Bot",
-    "password": "Senkubot",
+    "username": "GOD",
+    "password": "ajjubai94",
     "type": "offline"
   },
   "server": {
     "ip": "Senku1249.aternos.me",
     "port": 62548,
-    "version": "",
-    "try-creative": false
+    "version": "1.16.5",
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Senkubot"
+      "password": "ajjubai94"
     },
     "anti-afk": {
       "enabled": true,
@@ -36,23 +36,23 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 1000,
-    "max-reconnect-delay": 5000
+    "auto-reconnect-delay": 30000,
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 10,
-      "speed": 2000
+      "radius": 4,
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 2500
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 1000
+      "interval": 10000
     }
   },
   "modules": {
